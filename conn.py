@@ -11,5 +11,5 @@ def get_db_connection():
         user=os.getenv("db_user"),
         password=os.getenv("db_password")
     )
-    print(host)  # Print host after it has been retrieved
+    print(host)  #w Print host after it has been retrieved
     return connection
